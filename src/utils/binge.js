@@ -1,5 +1,5 @@
-let binge={
-  findAll(){
+let binge = {
+  findAll() {
     console.log('findAll执行了');
   }
 };

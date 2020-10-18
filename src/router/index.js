@@ -28,11 +28,31 @@ const routes = [
     path: '/main',
     name: '',
     component: () => import('../views/main/index.vue'),
-    children:[
+    children: [
       {
         path: 'category',
         name: '',
-        component: () => import('../views/category/category.vue')
+        component: () => import('../views/category/index.vue')
+      },
+      {
+        path: 'customer',
+        name: '',
+        component: () => import('../views/customer/index.vue')
+      },
+      {
+        path: 'good',
+        name: '',
+        component: () => import('../views/good/index.vue')
+      },
+      {
+        path: 'supplier',
+        name: '',
+        component: () => import('../views/supplier/index.vue')
+      },
+      {
+        path: 'unit',
+        name: '',
+        component: () => import('../views/unit/index.vue')
       },
 
     ]
@@ -40,7 +60,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode:'history',
+  mode: 'history',
   routes
 })
 

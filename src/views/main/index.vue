@@ -20,11 +20,11 @@
               <span>基础数据</span>
             </template>
 
-            <el-menu-item index="1-1">商品管理</el-menu-item>
+            <el-menu-item index="/main/good">商品管理</el-menu-item>
             <el-menu-item index="/main/category">分类管理</el-menu-item>
-            <el-menu-item index="1-3">客户管理</el-menu-item>
-            <el-menu-item index="1-4">运营商管理</el-menu-item>
-            <el-menu-item index="1-5">单位管理</el-menu-item>
+            <el-menu-item index="/main/customer">客户管理</el-menu-item>
+            <el-menu-item index="/main/supplier">运营商管理</el-menu-item>
+            <el-menu-item index="/main/unit">单位管理</el-menu-item>
           </el-submenu>
           <el-submenu index="2">
             <template slot="title">
